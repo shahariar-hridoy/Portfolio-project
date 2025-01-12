@@ -38,7 +38,6 @@
 }
 .section-description{
     font-size: 18px;
-
 }
 
 /* header style */
@@ -116,4 +115,21 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+.skills-about{
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+/* skills section */
+.skill-container{
+    margin-top: 50px;
+    display: flex;
+    border-radius: 5px;
+    padding: 30px;
+    gap: 24px;
+}
+.skill-description{
+    color:#757575 ;
 }

@@ -203,3 +203,37 @@ footer input[type="text"] , input[type="email"], footer textarea{
     font-size: 16px;
     color: #474747;
 }
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .skill-container, .resume-container, footer, 
+    .about-items, nav , nav>ul,
+    .banner{
+        flex-direction: column;
+    }
+    footer , .about{
+        padding: 20px;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    footer input[type="text"] , input[type="email"], footer textarea{
+        width: calc(100% - 40px);
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .header{
+        background-image: none;    
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    .nav-title{
+        margin: 20px;
+    }
+}
